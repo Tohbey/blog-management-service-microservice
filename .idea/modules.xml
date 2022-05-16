@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BlogAccountManagement/BlogAccountManagement.iml" filepath="$PROJECT_DIR$/BlogAccountManagement/BlogAccountManagement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BlogDiscoverService/BlogDiscoverService.iml" filepath="$PROJECT_DIR$/BlogDiscoverService/BlogDiscoverService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BlogUserService/BlogUserService.iml" filepath="$PROJECT_DIR$/BlogUserService/BlogUserService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BlogZuulAPIGateway/BlogZuulAPIGateway.iml" filepath="$PROJECT_DIR$/BlogZuulAPIGateway/BlogZuulAPIGateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/blog-management-microservice.iml" filepath="$PROJECT_DIR$/.idea/blog-management-microservice.iml" />
+    </modules>
+  </component>
+</project>
