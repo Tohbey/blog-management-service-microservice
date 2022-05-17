@@ -4,37 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e69f3856-fad2-4a8c-afe3-f5a122f7b94e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_4_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_persistence_jakarta_persistence_api_2_2_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_transaction_jakarta_transaction_api_1_3_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_2_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_6_8_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_4_2_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_3_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_6_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_6_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_6_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_6_7.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_6_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_6_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_3_19.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_3_19.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_3_19.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_3_19.xml" beforeDir="false" />
+    <list default="true" id="e69f3856-fad2-4a8c-afe3-f5a122f7b94e" name="Changes" comment="Eureka Client Setup">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlogAccountManagement/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BlogAccountManagement/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlogAccountManagement/src/main/java/com/example/blogaccountmanagement/BlogAccountManagementApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/BlogAccountManagement/src/main/java/com/example/blogaccountmanagement/BlogAccountManagementApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlogAccountManagement/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/BlogAccountManagement/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlogDiscoverService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BlogDiscoverService/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlogDiscoverService/src/main/java/com/example/blogdiscoverservice/BlogDiscoverServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/BlogDiscoverService/src/main/java/com/example/blogdiscoverservice/BlogDiscoverServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlogDiscoverService/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/BlogDiscoverService/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlogUserService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BlogUserService/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlogUserService/src/main/java/com/example/bloguserservice/BlogUserServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/BlogUserService/src/main/java/com/example/bloguserservice/BlogUserServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlogUserService/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/BlogUserService/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +52,7 @@
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
-  <component name="RunManager" selected="Spring Boot.BlogAccountManagementApplication">
+  <component name="RunManager" selected="Spring Boot.BlogDiscoverServiceApplication">
     <configuration name="BlogAccountManagementApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="BlogAccountManagement" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.blogaccountmanagement.BlogAccountManagementApplication" />
@@ -120,7 +92,23 @@
       <updated>1652717855454</updated>
       <workItem from="1652717859899" duration="1496000" />
       <workItem from="1652723084838" duration="8333000" />
+      <workItem from="1652761632688" duration="2268000" />
     </task>
+    <task id="LOCAL-00001" summary="Eureka Server Setup">
+      <created>1652762208809</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1652762208809</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Eureka Client Setup">
+      <created>1652762490859</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1652762490859</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,6 +124,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Eureka Server Setup" />
+    <MESSAGE value="Eureka Client Setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Eureka Client Setup" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
