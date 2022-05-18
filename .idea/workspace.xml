@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e69f3856-fad2-4a8c-afe3-f5a122f7b94e" name="Changes" comment="setting up eureka instance id">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="e69f3856-fad2-4a8c-afe3-f5a122f7b94e" name="Changes" comment=".idea">
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloudAPIGateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloudAPIGateway/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +33,13 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="29Fnkw1e3Q70oQ1ewzxXMj5Z1e4" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -59,7 +66,7 @@
       <recent name="C:\Users\fafow\Documents\spring boot\blog-management-microservice\BlogZuulAPIGateway" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.BlogAccountManagementApplication">
+  <component name="RunManager" selected="Spring Boot.SpringCloudApiGatewayApplication">
     <configuration name="BlogAccountManagementApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
       <module name="BlogAccountManagement" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.blogaccountmanagement.BlogAccountManagementApplication" />
@@ -118,6 +125,7 @@
       <workItem from="1652859274068" duration="7551000" />
       <workItem from="1652869978032" duration="278000" />
       <workItem from="1652870457807" duration="261000" />
+      <workItem from="1652870922568" duration="1273000" />
     </task>
     <task id="LOCAL-00001" summary="Eureka Server Setup">
       <created>1652762208809</created>
@@ -161,7 +169,21 @@
       <option name="project" value="LOCAL" />
       <updated>1652864783317</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="first commit for spring cloud API gateway">
+      <created>1652871174915</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1652871174915</updated>
+    </task>
+    <task id="LOCAL-00008" summary=".idea">
+      <created>1652871245597</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1652871245597</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,9 +205,10 @@
     <MESSAGE value="Eureka Client Setup" />
     <MESSAGE value="Account Management Service fix" />
     <MESSAGE value="Zuul API Gateway Setup" />
-    <MESSAGE value=".idea" />
     <MESSAGE value="setting up eureka instance id" />
-    <option name="LAST_COMMIT_MESSAGE" value="setting up eureka instance id" />
+    <MESSAGE value="first commit for spring cloud API gateway" />
+    <MESSAGE value=".idea" />
+    <option name="LAST_COMMIT_MESSAGE" value=".idea" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

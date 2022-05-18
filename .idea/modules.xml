@@ -6,7 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/BlogDiscoverService/BlogDiscoverService.iml" filepath="$PROJECT_DIR$/BlogDiscoverService/BlogDiscoverService.iml" />
       <module fileurl="file://$PROJECT_DIR$/BlogUserService/BlogUserService.iml" filepath="$PROJECT_DIR$/BlogUserService/BlogUserService.iml" />
       <module fileurl="file://$PROJECT_DIR$/BlogZuulAPIGateway/BlogZuulAPIGateway.iml" filepath="$PROJECT_DIR$/BlogZuulAPIGateway/BlogZuulAPIGateway.iml" />
-      <module fileurl="file://$PROJECT_DIR$/BlogDiscoverService/SpringCloudAPIGateway/SpringCloudAPIGateway.iml" filepath="$PROJECT_DIR$/BlogDiscoverService/SpringCloudAPIGateway/SpringCloudAPIGateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloudAPIGateway/SpringCloudAPIGateway.iml" filepath="$PROJECT_DIR$/SpringCloudAPIGateway/SpringCloudAPIGateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/blog-management-microservice.iml" filepath="$PROJECT_DIR$/.idea/blog-management-microservice.iml" />
     </modules>
   </component>
