@@ -4,6 +4,7 @@
     <file url="file://$PROJECT_DIR$/BlogAccountManagement/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/BlogDiscoverService/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/BlogUserService/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/BlogZuulAPIGateway/SpringCloudAPIGateway/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/BlogZuulAPIGateway/src/main/java" charset="UTF-8" />
   </component>
 </project>

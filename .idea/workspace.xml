@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e69f3856-fad2-4a8c-afe3-f5a122f7b94e" name="Changes" comment=".idea">
+    <list default="true" id="e69f3856-fad2-4a8c-afe3-f5a122f7b94e" name="Changes" comment="setting up eureka instance id">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlogAccountManagement/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/BlogAccountManagement/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlogUserService/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/BlogUserService/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +54,11 @@
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\fafow\Documents\spring boot\blog-management-microservice\BlogZuulAPIGateway" />
+    </key>
+  </component>
   <component name="RunManager" selected="Spring Boot.BlogAccountManagementApplication">
     <configuration name="BlogAccountManagementApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
       <module name="BlogAccountManagement" />
@@ -82,11 +89,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringCloudApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="SpringCloudAPIGateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springcloudapigateway.SpringCloudApiGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Spring Boot.BlogAccountManagementApplication" />
       <item itemvalue="Spring Boot.BlogDiscoverServiceApplication" />
       <item itemvalue="Spring Boot.BlogUserServiceApplication" />
       <item itemvalue="Spring Boot.BlogZuulApiGatewayApplication" />
+      <item itemvalue="Spring Boot.SpringCloudApiGatewayApplication" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -100,7 +115,9 @@
       <workItem from="1652717859899" duration="1496000" />
       <workItem from="1652723084838" duration="8333000" />
       <workItem from="1652761632688" duration="2504000" />
-      <workItem from="1652859274068" duration="4637000" />
+      <workItem from="1652859274068" duration="7551000" />
+      <workItem from="1652869978032" duration="278000" />
+      <workItem from="1652870457807" duration="261000" />
     </task>
     <task id="LOCAL-00001" summary="Eureka Server Setup">
       <created>1652762208809</created>
@@ -137,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652863700395</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="setting up eureka instance id">
+      <created>1652864783317</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1652864783317</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,7 +184,8 @@
     <MESSAGE value="Account Management Service fix" />
     <MESSAGE value="Zuul API Gateway Setup" />
     <MESSAGE value=".idea" />
-    <option name="LAST_COMMIT_MESSAGE" value=".idea" />
+    <MESSAGE value="setting up eureka instance id" />
+    <option name="LAST_COMMIT_MESSAGE" value="setting up eureka instance id" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

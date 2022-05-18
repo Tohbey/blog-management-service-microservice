@@ -11,6 +11,7 @@
         <module name="BlogZuulAPIGateway" />
         <module name="BlogUserService" />
         <module name="BlogDiscoverService" />
+        <module name="SpringCloudAPIGateway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -18,6 +19,7 @@
       <module name="BlogDiscoverService" target="17" />
       <module name="BlogUserService" target="17" />
       <module name="BlogZuulAPIGateway" target="17" />
+      <module name="SpringCloudAPIGateway" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -26,6 +28,7 @@
       <module name="BlogDiscoverService" options="-parameters" />
       <module name="BlogUserService" options="-parameters" />
       <module name="BlogZuulAPIGateway" options="-parameters" />
+      <module name="SpringCloudAPIGateway" options="-parameters" />
     </option>
   </component>
 </project>

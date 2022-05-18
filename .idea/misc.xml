@@ -7,6 +7,7 @@
         <option value="$PROJECT_DIR$/BlogUserService/pom.xml" />
         <option value="$PROJECT_DIR$/BlogZuulAPIGateway/pom.xml" />
         <option value="$PROJECT_DIR$/BlogAccountManagement/pom.xml" />
+        <option value="$PROJECT_DIR$/BlogDiscoverService/SpringCloudAPIGateway/pom.xml" />
       </list>
     </option>
   </component>
