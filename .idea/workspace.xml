@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e69f3856-fad2-4a8c-afe3-f5a122f7b94e" name="Changes" comment="Account Management Service fix">
+    <list default="true" id="e69f3856-fad2-4a8c-afe3-f5a122f7b94e" name="Changes" comment="Zuul API Gateway Setup">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlogZuulAPIGateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BlogZuulAPIGateway/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlogZuulAPIGateway/src/main/java/com/example/blogzuulapigateway/BlogZuulApiGatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/BlogZuulAPIGateway/src/main/java/com/example/blogzuulapigateway/BlogZuulApiGatewayApplication.java" afterDir="false" />
@@ -46,7 +46,6 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="12" />
     <property name="settings.editor.selected.configurable" value="reactor" />
@@ -95,7 +94,7 @@
       <workItem from="1652717859899" duration="1496000" />
       <workItem from="1652723084838" duration="8333000" />
       <workItem from="1652761632688" duration="2504000" />
-      <workItem from="1652859274068" duration="3136000" />
+      <workItem from="1652859274068" duration="3583000" />
     </task>
     <task id="LOCAL-00001" summary="Eureka Server Setup">
       <created>1652762208809</created>
@@ -118,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652764328230</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Zuul API Gateway Setup">
+      <created>1652863524687</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1652863524687</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,7 +145,8 @@
     <MESSAGE value="Eureka Server Setup" />
     <MESSAGE value="Eureka Client Setup" />
     <MESSAGE value="Account Management Service fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Account Management Service fix" />
+    <MESSAGE value="Zuul API Gateway Setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Zuul API Gateway Setup" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
