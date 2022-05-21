@@ -4,17 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e69f3856-fad2-4a8c-afe3-f5a122f7b94e" name="Changes" comment=".idea">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="e69f3856-fad2-4a8c-afe3-f5a122f7b94e" name="Changes" comment="setting up endpoint to get the current port the service is running on">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloudAPIGateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloudAPIGateway/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlogZuulAPIGateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BlogZuulAPIGateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlogZuulAPIGateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/BlogZuulAPIGateway/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -42,7 +47,9 @@
     </option>
   </component>
   <component name="ProjectId" id="29Fnkw1e3Q70oQ1ewzxXMj5Z1e4" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -125,7 +132,8 @@
       <workItem from="1652859274068" duration="7551000" />
       <workItem from="1652869978032" duration="278000" />
       <workItem from="1652870457807" duration="261000" />
-      <workItem from="1652870922568" duration="1273000" />
+      <workItem from="1652870922568" duration="5744000" />
+      <workItem from="1653104788872" duration="2070000" />
     </task>
     <task id="LOCAL-00001" summary="Eureka Server Setup">
       <created>1652762208809</created>
@@ -183,7 +191,35 @@
       <option name="project" value="LOCAL" />
       <updated>1652871245597</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary=".idea">
+      <created>1652872316694</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1652872316694</updated>
+    </task>
+    <task id="LOCAL-00010" summary=".idea">
+      <created>1652872335683</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1652872335683</updated>
+    </task>
+    <task id="LOCAL-00011" summary="setting up routes manually for spring cloud API gateway">
+      <created>1652872383356</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1652872383356</updated>
+    </task>
+    <task id="LOCAL-00012" summary="setting up endpoint to get the current port the service is running on">
+      <created>1652877637355</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1652877637355</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,7 +244,9 @@
     <MESSAGE value="setting up eureka instance id" />
     <MESSAGE value="first commit for spring cloud API gateway" />
     <MESSAGE value=".idea" />
-    <option name="LAST_COMMIT_MESSAGE" value=".idea" />
+    <MESSAGE value="setting up routes manually for spring cloud API gateway" />
+    <MESSAGE value="setting up endpoint to get the current port the service is running on" />
+    <option name="LAST_COMMIT_MESSAGE" value="setting up endpoint to get the current port the service is running on" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
