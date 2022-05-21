@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e69f3856-fad2-4a8c-afe3-f5a122f7b94e" name="Changes" comment="setting up endpoint to get the current port the service is running on">
+    <list default="true" id="e69f3856-fad2-4a8c-afe3-f5a122f7b94e" name="Changes" comment="setting up spring web security on zuul API gateway service">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlogZuulAPIGateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BlogZuulAPIGateway/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlogZuulAPIGateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/BlogZuulAPIGateway/src/main/resources/application.properties" afterDir="false" />
@@ -73,7 +73,7 @@
       <recent name="C:\Users\fafow\Documents\spring boot\blog-management-microservice\BlogZuulAPIGateway" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringCloudApiGatewayApplication">
+  <component name="RunManager" selected="Spring Boot.BlogZuulApiGatewayApplication">
     <configuration name="BlogAccountManagementApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
       <module name="BlogAccountManagement" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.blogaccountmanagement.BlogAccountManagementApplication" />
@@ -133,7 +133,7 @@
       <workItem from="1652869978032" duration="278000" />
       <workItem from="1652870457807" duration="261000" />
       <workItem from="1652870922568" duration="5744000" />
-      <workItem from="1653104788872" duration="2070000" />
+      <workItem from="1653104788872" duration="2661000" />
     </task>
     <task id="LOCAL-00001" summary="Eureka Server Setup">
       <created>1652762208809</created>
@@ -219,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652877637355</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="setting up spring web security on zuul API gateway service">
+      <created>1653107932883</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1653107932883</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,7 +253,8 @@
     <MESSAGE value=".idea" />
     <MESSAGE value="setting up routes manually for spring cloud API gateway" />
     <MESSAGE value="setting up endpoint to get the current port the service is running on" />
-    <option name="LAST_COMMIT_MESSAGE" value="setting up endpoint to get the current port the service is running on" />
+    <MESSAGE value="setting up spring web security on zuul API gateway service" />
+    <option name="LAST_COMMIT_MESSAGE" value="setting up spring web security on zuul API gateway service" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
