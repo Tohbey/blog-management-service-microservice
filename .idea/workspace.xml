@@ -4,9 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e69f3856-fad2-4a8c-afe3-f5a122f7b94e" name="Changes" comment="removal of rabbit mq">
+    <list default="true" id="e69f3856-fad2-4a8c-afe3-f5a122f7b94e" name="Changes" comment="Addition of filters to Spring cloud API gateway service">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloudAPIGateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloudAPIGateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlogAccountManagement/src/main/java/com/example/blogaccountmanagement/controller/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/BlogAccountManagement/src/main/java/com/example/blogaccountmanagement/controller/AccountController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlogAccountManagement/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/BlogAccountManagement/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlogDiscoverService/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/BlogDiscoverService/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlogUserService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BlogUserService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlogUserService/src/main/java/com/example/bloguserservice/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/BlogUserService/src/main/java/com/example/bloguserservice/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlogUserService/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/BlogUserService/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlogZuulAPIGateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BlogZuulAPIGateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlogZuulAPIGateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/BlogZuulAPIGateway/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloudAPIGateway/src/main/java/com/example/springcloudapigateway/AuthorizationHeaderFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloudAPIGateway/src/main/java/com/example/springcloudapigateway/AuthorizationHeaderFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloudAPIGateway/src/main/java/com/example/springcloudapigateway/MyPostFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloudAPIGateway/src/main/java/com/example/springcloudapigateway/MyPostFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloudAPIGateway/src/main/java/com/example/springcloudapigateway/MyPreFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloudAPIGateway/src/main/java/com/example/springcloudapigateway/MyPreFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloudAPIGateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloudAPIGateway/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +78,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="jdk.selected.JAVA_MODULE" value="12" />
+    <property name="jdk.selected.JAVA_MODULE" value="17" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reactor" />
   </component>
   <component name="ReactorSettings">
@@ -77,6 +95,13 @@
       <module name="BlogAccountManagement" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.blogaccountmanagement.BlogAccountManagementApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BlogApiConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="BlogAPIConfigServer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.blogapiconfigserver.BlogApiConfigServerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -115,6 +140,7 @@
       <item itemvalue="Spring Boot.BlogUserServiceApplication" />
       <item itemvalue="Spring Boot.BlogZuulApiGatewayApplication" />
       <item itemvalue="Spring Boot.SpringCloudApiGatewayApplication" />
+      <item itemvalue="Spring Boot.BlogApiConfigServerApplication" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -132,7 +158,9 @@
       <workItem from="1652869978032" duration="278000" />
       <workItem from="1652870457807" duration="261000" />
       <workItem from="1652870922568" duration="5744000" />
-      <workItem from="1653104788872" duration="3309000" />
+      <workItem from="1653104788872" duration="4238000" />
+      <workItem from="1653132495961" duration="665000" />
+      <workItem from="1653133441777" duration="1213000" />
     </task>
     <task id="LOCAL-00001" summary="Eureka Server Setup">
       <created>1652762208809</created>
@@ -232,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653108358193</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Addition of filters to Spring cloud API gateway service">
+      <created>1653109269684</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1653109269685</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,7 +296,8 @@
     <MESSAGE value="setting up endpoint to get the current port the service is running on" />
     <MESSAGE value="setting up spring web security on zuul API gateway service" />
     <MESSAGE value="removal of rabbit mq" />
-    <option name="LAST_COMMIT_MESSAGE" value="removal of rabbit mq" />
+    <MESSAGE value="Addition of filters to Spring cloud API gateway service" />
+    <option name="LAST_COMMIT_MESSAGE" value="Addition of filters to Spring cloud API gateway service" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

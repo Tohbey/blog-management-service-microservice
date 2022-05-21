@@ -10,12 +10,14 @@
         <module name="BlogAccountManagement" />
         <module name="BlogZuulAPIGateway" />
         <module name="BlogUserService" />
+        <module name="BlogAPIConfigServer" />
         <module name="BlogDiscoverService" />
         <module name="SpringCloudAPIGateway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="BlogAccountManagement" target="17" />
+      <module name="BlogAPIConfigServer" target="17" />
       <module name="BlogDiscoverService" target="17" />
       <module name="BlogUserService" target="17" />
       <module name="BlogZuulAPIGateway" target="17" />
@@ -24,6 +26,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="BlogAPIConfigServer" options="-parameters" />
       <module name="BlogAccountManagement" options="-parameters" />
       <module name="BlogDiscoverService" options="-parameters" />
       <module name="BlogUserService" options="-parameters" />

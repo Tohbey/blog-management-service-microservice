@@ -9,6 +9,8 @@
         <option value="$PROJECT_DIR$/BlogAccountManagement/pom.xml" />
         <option value="$PROJECT_DIR$/BlogDiscoverService/SpringCloudAPIGateway/pom.xml" />
         <option value="$PROJECT_DIR$/SpringCloudAPIGateway/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/BlogAPIConfigServer/pom.xml" />
       </list>
     </option>
   </component>

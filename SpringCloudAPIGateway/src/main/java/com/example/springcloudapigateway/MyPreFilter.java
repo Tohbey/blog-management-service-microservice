@@ -29,7 +29,7 @@ public class MyPreFilter implements GlobalFilter, Ordered {
 
         Set<String> headerNames = headers.keySet();
 
-        headerNames.forEach((headerName)-> {
+        headerNames.forEach((headerName) -> {
 
             String headerValue = headers.getFirst(headerName);
             logger.info(headerName + " " + headerValue);
