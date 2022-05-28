@@ -1,6 +1,6 @@
 package com.example.bloguserservice.api.v1.DTO;
 
-import com.example.bloguserservice.entity.Role;
+import com.example.bloguserservice.model.Role;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
 
@@ -16,6 +16,7 @@ public class UserDTO implements Serializable {
     private String email;
     private List<Role> roles;
     private String profile;
+    private RememberTokenDTO token;
 
     @JsonProperty("user_url")
     private String userUrl;

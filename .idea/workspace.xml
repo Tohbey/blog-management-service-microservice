@@ -4,10 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e69f3856-fad2-4a8c-afe3-f5a122f7b94e" name="Changes" comment="git ignore">
+    <list default="true" id="e69f3856-fad2-4a8c-afe3-f5a122f7b94e" name="Changes" comment="Authentication setup and user setup">
+      <change afterPath="$PROJECT_DIR$/BlogUserService/src/main/java/com/example/bloguserservice/api/v1/DTO/RememberTokenDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlogUserService/src/main/java/com/example/bloguserservice/api/v1/DTO/UserListDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlogUserService/src/main/java/com/example/bloguserservice/api/v1/mapper/RememberTokenMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlogUserService/src/main/java/com/example/bloguserservice/dtos/ResponseObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlogUserService/src/main/java/com/example/bloguserservice/exceptions/NotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlogUserService/src/main/java/com/example/bloguserservice/jwt/JwtAuthenticationEntryPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlogUserService/src/main/java/com/example/bloguserservice/jwt/JwtRequestFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlogUserService/src/main/java/com/example/bloguserservice/jwt/JwtUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlogUserService/src/main/java/com/example/bloguserservice/model/RememberToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlogUserService/src/main/java/com/example/bloguserservice/repository/RememberTokenRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlogUserService/src/main/java/com/example/bloguserservice/security/CustomDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlogUserService/src/main/java/com/example/bloguserservice/security/CustomDetailService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlogUserService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BlogUserService/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlogUserService/src/test/java/com/example/bloguserservice/BlogUserServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/BlogUserService/src/test/java/com/example/bloguserservice/BlogUserServiceApplicationTestsEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlogUserService/src/main/java/com/example/bloguserservice/api/v1/DTO/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/BlogUserService/src/main/java/com/example/bloguserservice/api/v1/DTO/UserDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlogUserService/src/main/java/com/example/bloguserservice/api/v1/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/BlogUserService/src/main/java/com/example/bloguserservice/api/v1/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlogUserService/src/main/java/com/example/bloguserservice/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/BlogUserService/src/main/java/com/example/bloguserservice/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlogUserService/src/main/java/com/example/bloguserservice/entity/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/BlogUserService/src/main/java/com/example/bloguserservice/model/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlogUserService/src/main/java/com/example/bloguserservice/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/BlogUserService/src/main/java/com/example/bloguserservice/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlogUserService/src/main/java/com/example/bloguserservice/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/BlogUserService/src/main/java/com/example/bloguserservice/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlogUserService/src/main/java/com/example/bloguserservice/security/AuthenticationFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlogUserService/src/main/java/com/example/bloguserservice/security/WebSecurity.java" beforeDir="false" afterPath="$PROJECT_DIR$/BlogUserService/src/main/java/com/example/bloguserservice/security/WebSecurity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlogUserService/src/main/java/com/example/bloguserservice/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/BlogUserService/src/main/java/com/example/bloguserservice/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlogUserService/src/main/java/com/example/bloguserservice/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/BlogUserService/src/main/java/com/example/bloguserservice/service/impl/UserServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,8 +56,8 @@
     </option>
     <option name="myId2Visible">
       <map>
-        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
-        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
         <entry key="com.haulmont.jpb.jpaStructure" value="false" />
       </map>
     </option>
@@ -154,7 +175,7 @@
       <workItem from="1653132495961" duration="665000" />
       <workItem from="1653133441777" duration="5364000" />
       <workItem from="1653641351857" duration="8621000" />
-      <workItem from="1653662774785" duration="988000" />
+      <workItem from="1653662774785" duration="5457000" />
     </task>
     <task id="LOCAL-00001" summary="Eureka Server Setup">
       <created>1652762208809</created>
@@ -310,7 +331,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653648316957</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="user setup">
+      <created>1653664186904</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1653664186904</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -346,7 +374,9 @@
     <MESSAGE value="addition of bootstrap properties file" />
     <MESSAGE value="bug fix" />
     <MESSAGE value="git ignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="git ignore" />
+    <MESSAGE value="user setup" />
+    <MESSAGE value="Authentication setup and user setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Authentication setup and user setup" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

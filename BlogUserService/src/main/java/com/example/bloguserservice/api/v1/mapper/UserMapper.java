@@ -1,7 +1,7 @@
 package com.example.bloguserservice.api.v1.mapper;
 
 import com.example.bloguserservice.api.v1.DTO.UserDTO;
-import com.example.bloguserservice.entity.User;
+import com.example.bloguserservice.model.User;
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
 
